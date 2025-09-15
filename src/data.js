@@ -103,7 +103,7 @@ export const listTools = [
 import Proyek1 from "/assets/proyek/proyek1.webp";
 import Proyek2 from "/assets/proyek/proyek2.webp";
 import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
+import Proyek4 from "/assets/proyek/capstone.png";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
 
@@ -135,10 +135,11 @@ export const listProyek = [
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Website Capstone Project",
+    desk: "Ini adalah proyek capstone dari program Fullstack Web Developer di Dicoding. Website ini merupakan website rekomendasi wisata Daerah Istimewa Yogyakarta.",
     tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "500",
+    link: "https://jogjadventure-capstone-project-brown.vercel.app/"
   },
   {
     id: 5,

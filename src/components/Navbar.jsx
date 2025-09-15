@@ -15,15 +15,21 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
-    }
+    };
   }, []);
 
   return (
     <div className="navbar py-7 flex items-center justify-between">
       <div className="logo">
-        <h1 className="text-3xl  font-bold bg-white text-black p-1 md:bg-transparent md:text-white">Portfolio.</h1>
+        <h1 className="text-3xl  font-bold bg-white text-black p-1 md:bg-transparent md:text-white">
+          Portfolio.
+        </h1>
       </div>
-      <ul className={`menu flex items-center  sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-0 -top-10 opacity-0 md:opacity-100 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none z-40 ${active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}>
+      <ul
+        className={`menu flex items-center  sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-0 -top-10 opacity-0 md:opacity-100 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl md:bg-transparent transition-all md:transition-none z-40 ${
+          active ? "top-0 opacity-100" : "-top-10 opacity-0"
+        }`}
+      >
         <li>
           <a href="#beranda" className="sm:text-lg text-base font-medium">
             Beranda

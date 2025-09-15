@@ -175,7 +175,7 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <a
-                    href="#"
+                    href={proyek.link}
                     className="bg-blue-700 p-3 rounded-lg block border border-blue-600 hover:bg-blue-600"
                   >
                     Lihat website
